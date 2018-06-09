@@ -16,9 +16,6 @@
     "autoload": {
         "psr-4": { "Omnipay\\Pingpp\\" : "src/" }
     },
-    "require": {
-        "php": ">=5.6"
-    },
     "extra": {
         "think-path": "thinkphp"
     },
