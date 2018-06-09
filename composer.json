@@ -1,0 +1,30 @@
+{
+    "name": "stan415/wxpay",
+    "description": "微信企业付款",
+    "type": "project",
+    "keywords": [
+        "thinkphp5",
+        "微信企业付款"
+    ],
+    "homepage": "https://github.com/stan415/wxpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stan415",
+            "email": "18478037234@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Pingpp\\" : "src/" }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+    
+}
