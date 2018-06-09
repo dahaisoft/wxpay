@@ -1,7 +1,6 @@
 {
     "name": "stan415/wxpay",
     "description": "微信企业付款",
-    "type": "project",
     "keywords": [
         "thinkphp5",
         "微信企业付款"
