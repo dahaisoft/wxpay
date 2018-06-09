@@ -13,14 +13,10 @@
             "email": "18478037234@163.com"
         }
     ],
+    "require": {},
     "autoload": {
-        "psr-4": { "Omnipay\\Pingpp\\" : "src/" }
-    },
-    "extra": {
-        "think-path": "thinkphp"
-    },
-    "config": {
-        "preferred-install": "dist"
+        "psr-4": {
+            "wxpay\\": "src/"
+        }
     }
-    
 }
