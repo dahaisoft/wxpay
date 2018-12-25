@@ -1,22 +1,25 @@
 {
-    "name": "stan415/wxpay",
+    "name": "dahaisoft/wxpay",
     "description": "微信企业付款",
     "keywords": [
         "thinkphp5",
         "微信企业付款"
     ],
-    "homepage": "https://github.com/stan415/wxpay",
+    "homepage": "https://github.com/dahaisoft/wxpay",
     "license": "MIT",
     "authors": [
         {
-            "name": "stan415",
-            "email": "18478037234@163.com"
+            "name": "dahaisoft",
+            "email": "haiwei.free@gmail.com"
         }
     ],
-    "require": {},
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
     "autoload": {
         "psr-4": {
-            "wxpay\\": "src/"
+            "Wxpay\\": "src/"
         }
     }
 }
